@@ -1,0 +1,9 @@
+Al enviar una petición POST a la ruta http://localhost:3000/registro con un JSON, el servidor devuelve una respuesta con el estado, el nombre y el mensaje enviados. Esto demuestra que Express recibe y procesa correctamente los datos en formato JSON.
+
+Respuesta esperada:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
